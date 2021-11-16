@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true, // ts-check
+    "noImplicitAny": true // 기본적인 type을 꼭 넣어야 한다.
+  }
+}
