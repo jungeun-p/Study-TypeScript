@@ -23,5 +23,6 @@ function askQuestion(answer: Answer) {
 
 }
 
-askQuestion('예스!');
-askQuestion('Y');
+askQuestion(Answer.Yes);
+askQuestion('예스!'); // 불가
+askQuestion('Y'); // 불가
