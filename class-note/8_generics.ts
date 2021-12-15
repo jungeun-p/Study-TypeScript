@@ -41,3 +41,22 @@ function logTextLength<T>(text: T[]): T[]{ // T는 배열이기 때문에 length
     return text;
 }
 logTextLength<string>(['hi']);
+
+// keyof
+interface ShoppingItem{
+    name: string;
+    price: number;
+    stock: number;
+}
+
+function getShoppingItemOption<T extends keyof ShoppingItem>(itemOption: T): T {
+    return itemOption;
+}
+
+// getShoppingItemOption(false);
+// getShoppingItemOption<string>('a');
+getShoppingItemOption('name');
+
+
+
+
