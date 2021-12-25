@@ -103,6 +103,9 @@ interface PhoneNumberDictionary {
     }
     /* ------------------------------------------------ */
   }
+
+  var div = document.querySelector('div') as HTMLDivElement;
+  div?.innerText;
   
   new AddressBook();
   
