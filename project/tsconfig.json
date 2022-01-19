@@ -1,11 +1,10 @@
-// @ts-check
-// checkJs 속성
 {
   "compilerOptions": {
     "allowJs": true,
     "target": "ES5",
-    "outDir": "/.built", // ts가 어디로 들어갈 것인지.
-    "moduleResolution": "Node"
+    "outDir": "./built", // ts가 어디로 들어갈 것인지.
+    "moduleResolution": "Node",
+    "lib": ["ES2015", "DOM", "DOM.Iterable"]
   },
   "include": ["./src/**/*"] // 어떤 폴더를 대상으로 compile 처리를 할 것인지.
 }
